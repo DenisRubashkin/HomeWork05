@@ -1,0 +1,59 @@
+table {
+	border-collapse: collapse;
+	margin: 40px auto;
+	border: 1px solid grey;
+}
+
+td {
+	border: 10px solid black;
+	padding: 40px;
+	font-size: 0;
+}
+
+td.td-yellow {
+background-color: yellow;
+}
+
+td.td-blue {
+background-color: blue;
+}
+
+td.td-red {
+background-color: red;
+}
+
+td.td-grey {
+background-color: grey;
+}
+
+td.td-high {
+	padding: 80px 40px
+}
+
+td.td-wide {
+	padding: 40px 80px
+}
+
+td.td-low {
+	padding: 20px 40px
+}
+
+td.td-right {
+	border-right: 0;
+	padding-right: 50px;
+}
+
+td.td-top {
+	border-top: 0;
+	padding: 30px 40px 20px 40px;
+}
+
+td.td-left {
+	border-left: 0;
+	padding-left: 40px 20px 40px 30px;
+}
+
+td.td-bottom {
+	border-bottom: 0;
+	padding-bottom: 30px;
+}
