@@ -75,6 +75,15 @@ span.invite {
 	border 1px solid #5ca5e0;
 	box-sizing: border-box;
 }
+
+a.invite {
+	text-decoration: none;
+}
+
+a.invite:hover {
+	text-decoration: underline;
+}
+
 .menu>li>a {
 	padding: 11px 10px 12px 14px;
 	display: block;
@@ -168,6 +177,10 @@ span.fb-logo {
 	font-weight: bold;
 	border-right: 2px groove #4e69ac;
 	padding: 0 15px 0 13px;
+}
+
+span.fb-text {
+	font-size: 14px;
 }
 
 span.fb-bold  {
